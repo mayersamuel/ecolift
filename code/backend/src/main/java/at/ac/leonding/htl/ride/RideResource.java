@@ -1,6 +1,5 @@
 package at.ac.leonding.htl.ride;
 
-import at.ac.leonding.htl.person.Person;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;

@@ -1,7 +1,5 @@
 package at.ac.leonding.htl.person;
 
-import at.ac.leonding.htl.feature.company.Company;
-import at.ac.leonding.htl.ride.Ride;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;

@@ -1,8 +1,6 @@
 package at.ac.leonding.htl.feature.company;
 
-import at.ac.leonding.htl.person.Person;
 import jakarta.inject.Inject;
-import jakarta.persistence.GeneratedValue;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
