@@ -1,5 +1,7 @@
-package at.ac.leonding.htl.person;
+package at.ac.leonding.htl.feature.company.person;
 
+import at.ac.leonding.htl.feature.company.person.dtos.PersonDto;
+import at.ac.leonding.htl.feature.company.person.dtos.PersonDtoFactory;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
@@ -16,8 +18,8 @@ public class PersonResource {
     PersonRepository personRepository;
 
     @GET
-    public List<Person> listAll() {
-        return personRepository.listAll();
+    public List<PersonDto> listAll() {
+        return PersonDtoFactory.createList(personRepository.listAll());
     }
 
     @Path("{id}")
@@ -28,13 +30,13 @@ public class PersonResource {
         if (person == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
         } else {
-            return Response.ok(person).build();
+            return Response.ok(PersonDtoFactory.create(person)).build();
         }
     }
 
     @Transactional
     @POST
-    public Response addPerson(Person person) {
+    public Response addPerson(Person person) { // not recommended because company is not assigned
         personRepository.persist(person);
         return Response.ok().build();
     }

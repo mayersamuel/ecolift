@@ -1,7 +1,7 @@
-package at.ac.leonding.htl.person;
+package at.ac.leonding.htl.feature.company.person;
 
-import at.ac.leonding.htl.ride.Ride;
 import at.ac.leonding.htl.feature.company.Company;
+import at.ac.leonding.htl.feature.company.ride.Ride;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -10,16 +10,16 @@ import java.util.List;
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    public Long id;
 
     @ManyToOne
     @JoinColumn(name = "company_id")
-    Company company;
+    public Company company;
 
-    String name;
+    public String name;
 
     @ManyToMany
-    List<Ride> rides;
+    public List<Ride> rides;
 
     public Person() {
     }

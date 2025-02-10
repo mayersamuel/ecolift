@@ -1,4 +1,5 @@
-###
+### companies
+
 GET http://localhost:8080/companies
 Content-Type: Application/Json
 
@@ -9,11 +10,3 @@ Content-Type: Application/Json
 {
   "name": "my company"
 }
-
-###
-GET http://localhost:8080/persons
-Content-Type: Application/Json
-
-###
-GET http://localhost:8080/rides
-Content-Type: Application/Json
