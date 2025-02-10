@@ -1,6 +1,8 @@
 import Foundation
 
-class ViewModel {
-    var model: Model
-    
+class ViewModel: ObservableObject {
+    @Published var model: Model
+    init(model: Model) {
+        self.model = model
+    }
 }
