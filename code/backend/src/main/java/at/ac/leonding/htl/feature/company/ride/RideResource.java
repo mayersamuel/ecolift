@@ -1,5 +1,7 @@
-package at.ac.leonding.htl.ride;
+package at.ac.leonding.htl.feature.company.ride;
 
+import at.ac.leonding.htl.feature.company.ride.dtos.RideDto;
+import at.ac.leonding.htl.feature.company.ride.dtos.RideDtoFactory;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
@@ -16,8 +18,8 @@ public class RideResource {
     RideRepository rideRepository;
 
     @GET
-    public List<Ride> listAll() {
-        return rideRepository.listAll();
+    public List<RideDto> listAll() {
+        return RideDtoFactory.createList(rideRepository.listAll());
     }
 
     @Path("{id}")
@@ -28,7 +30,9 @@ public class RideResource {
         if (ride == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
         } else {
-            return Response.ok(ride).build();
+            return Response.ok(
+                    RideDtoFactory.create(ride)
+            ).build();
         }
     }
 

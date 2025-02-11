@@ -1,0 +1,32 @@
+###
+
+GET localhost:8080/companies/1/rides
+Content-Type: Application/Json
+
+###
+
+GET localhost:8080/companies/1/rides/1
+Content-Type: Application/Json
+
+###
+
+POST localhost:8080/companies/1/rides
+Content-Type: Application/Json
+
+{
+  "name": "marvin"
+}
+
+### list rides (not by company)
+
+GET http://localhost:8080/rides
+Content-Type: Application/Json
+
+### find person (not by company)
+
+POST http://localhost:8080/companies
+Content-Type: Application/Json
+
+{
+  "name": "my company"
+}

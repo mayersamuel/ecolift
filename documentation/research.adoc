@@ -1,4 +1,10 @@
 === Fundings
 
 - https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund/what-innovation-fund_en
-- https://www.ffg.at/programm/basisprogramm
+- https://www.ffg.at/programm/
+
+==== Maybe possible
+
+- https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/life2027
+- https://www.klimafonds.gv.at/foerderung/greenstart-2024/
+- https://www.umweltfoerderung.at/betriebe/mobilitaetsmanagement/unterkategorie-mobilitaet
