@@ -22,4 +22,12 @@ public class RideRepository implements PanacheRepository<Ride> {
 
         return find("id = ?1 and host.company.id = ?2", rideId, companyId).firstResult();
     }
+
+    public List<Ride> findRidesByHostInCompany(Long hostId, Long companyId) {
+        if (hostId == null || companyId == null) {
+            throw new IllegalArgumentException("No person id or company id provided!");
+        }
+
+        return find("host.id = ?1 and host.company.id = ?2", hostId, companyId).list();
+    }
 }

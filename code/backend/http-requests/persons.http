@@ -17,6 +17,21 @@ Content-Type: Application/Json
   "name": "marvin"
 }
 
+### hosted rides of a person
+
+GET localhost:8080/companies/1/persons/1/hosted-rides
+Content-Type: application/json
+
+### host ride as person
+
+POST localhost:8080/companies/1/persons/1/hosted-rides
+Content-Type: application/json
+
+{
+  "startDestination": "htl leonding",
+  "targetDestination": "billa"
+}
+
 ### list persons (not by company)
 
 GET http://localhost:8080/persons
