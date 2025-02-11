@@ -1,13 +1,6 @@
-//
-//  ecobillUITestsLaunchTests.swift
-//  ecobillUITests
-//
-//  Created by Linus Wizany on 10.02.25.
-//
-
 import XCTest
 
-final class ecobillUITestsLaunchTests: XCTestCase {
+final class ecoliftUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

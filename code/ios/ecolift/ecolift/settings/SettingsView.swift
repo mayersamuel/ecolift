@@ -7,5 +7,7 @@ struct SettingsView: View {
 }
 
 #Preview {
-    ContentView(selectedTab: 2)
+    var model = Model()
+    var viwModel = ViewModel(model: model)
+    ContentView(selectedTab: 2, viewModel: viwModel)
 }

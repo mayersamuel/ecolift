@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		3212B24C2D5A098E000A7C10 /* PBXContainerItemProxy */ = {
+		328566B62D5B7BE10053ED95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3212B2332D5A098D000A7C10 /* Project object */;
+			containerPortal = 3285669D2D5B7BE00053ED95 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3212B23A2D5A098D000A7C10;
-			remoteInfo = ecobill;
+			remoteGlobalIDString = 328566A42D5B7BE00053ED95;
+			remoteInfo = ecolift;
 		};
-		3212B2562D5A098E000A7C10 /* PBXContainerItemProxy */ = {
+		328566C02D5B7BE10053ED95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3212B2332D5A098D000A7C10 /* Project object */;
+			containerPortal = 3285669D2D5B7BE00053ED95 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3212B23A2D5A098D000A7C10;
-			remoteInfo = ecobill;
+			remoteGlobalIDString = 328566A42D5B7BE00053ED95;
+			remoteInfo = ecolift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3212B23B2D5A098D000A7C10 /* ecobill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecobill.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212B24B2D5A098E000A7C10 /* ecobillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecobillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212B2552D5A098E000A7C10 /* ecobillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecobillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328566A52D5B7BE00053ED95 /* ecolift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecolift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328566B52D5B7BE10053ED95 /* ecoliftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoliftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328566BF2D5B7BE10053ED95 /* ecoliftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoliftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3212B23D2D5A098D000A7C10 /* ecobill */ = {
+		328566A72D5B7BE00053ED95 /* ecolift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ecobill;
+			path = ecolift;
 			sourceTree = "<group>";
 		};
-		3212B24E2D5A098E000A7C10 /* ecobillTests */ = {
+		328566B82D5B7BE10053ED95 /* ecoliftTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ecobillTests;
+			path = ecoliftTests;
 			sourceTree = "<group>";
 		};
-		3212B2582D5A098E000A7C10 /* ecobillUITests */ = {
+		328566C22D5B7BE10053ED95 /* ecoliftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ecobillUITests;
+			path = ecoliftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3212B2382D5A098D000A7C10 /* Frameworks */ = {
+		328566A22D5B7BE00053ED95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2482D5A098E000A7C10 /* Frameworks */ = {
+		328566B22D5B7BE10053ED95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2522D5A098E000A7C10 /* Frameworks */ = {
+		328566BC2D5B7BE10053ED95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3212B2322D5A098D000A7C10 = {
+		3285669C2D5B7BE00053ED95 = {
 			isa = PBXGroup;
 			children = (
-				3212B23D2D5A098D000A7C10 /* ecobill */,
-				3212B24E2D5A098E000A7C10 /* ecobillTests */,
-				3212B2582D5A098E000A7C10 /* ecobillUITests */,
-				3212B23C2D5A098D000A7C10 /* Products */,
+				328566A72D5B7BE00053ED95 /* ecolift */,
+				328566B82D5B7BE10053ED95 /* ecoliftTests */,
+				328566C22D5B7BE10053ED95 /* ecoliftUITests */,
+				328566A62D5B7BE00053ED95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3212B23C2D5A098D000A7C10 /* Products */ = {
+		328566A62D5B7BE00053ED95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212B23B2D5A098D000A7C10 /* ecobill.app */,
-				3212B24B2D5A098E000A7C10 /* ecobillTests.xctest */,
-				3212B2552D5A098E000A7C10 /* ecobillUITests.xctest */,
+				328566A52D5B7BE00053ED95 /* ecolift.app */,
+				328566B52D5B7BE10053ED95 /* ecoliftTests.xctest */,
+				328566BF2D5B7BE10053ED95 /* ecoliftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3212B23A2D5A098D000A7C10 /* ecobill */ = {
+		328566A42D5B7BE00053ED95 /* ecolift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3212B25F2D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobill" */;
+			buildConfigurationList = 328566C92D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecolift" */;
 			buildPhases = (
-				3212B2372D5A098D000A7C10 /* Sources */,
-				3212B2382D5A098D000A7C10 /* Frameworks */,
-				3212B2392D5A098D000A7C10 /* Resources */,
+				328566A12D5B7BE00053ED95 /* Sources */,
+				328566A22D5B7BE00053ED95 /* Frameworks */,
+				328566A32D5B7BE00053ED95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3212B23D2D5A098D000A7C10 /* ecobill */,
+				328566A72D5B7BE00053ED95 /* ecolift */,
 			);
-			name = ecobill;
+			name = ecolift;
 			packageProductDependencies = (
 			);
-			productName = ecobill;
-			productReference = 3212B23B2D5A098D000A7C10 /* ecobill.app */;
+			productName = ecolift;
+			productReference = 328566A52D5B7BE00053ED95 /* ecolift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3212B24A2D5A098E000A7C10 /* ecobillTests */ = {
+		328566B42D5B7BE10053ED95 /* ecoliftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3212B2622D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobillTests" */;
+			buildConfigurationList = 328566CC2D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecoliftTests" */;
 			buildPhases = (
-				3212B2472D5A098E000A7C10 /* Sources */,
-				3212B2482D5A098E000A7C10 /* Frameworks */,
-				3212B2492D5A098E000A7C10 /* Resources */,
+				328566B12D5B7BE10053ED95 /* Sources */,
+				328566B22D5B7BE10053ED95 /* Frameworks */,
+				328566B32D5B7BE10053ED95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3212B24D2D5A098E000A7C10 /* PBXTargetDependency */,
+				328566B72D5B7BE10053ED95 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3212B24E2D5A098E000A7C10 /* ecobillTests */,
+				328566B82D5B7BE10053ED95 /* ecoliftTests */,
 			);
-			name = ecobillTests;
+			name = ecoliftTests;
 			packageProductDependencies = (
 			);
-			productName = ecobillTests;
-			productReference = 3212B24B2D5A098E000A7C10 /* ecobillTests.xctest */;
+			productName = ecoliftTests;
+			productReference = 328566B52D5B7BE10053ED95 /* ecoliftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3212B2542D5A098E000A7C10 /* ecobillUITests */ = {
+		328566BE2D5B7BE10053ED95 /* ecoliftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3212B2652D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobillUITests" */;
+			buildConfigurationList = 328566CF2D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecoliftUITests" */;
 			buildPhases = (
-				3212B2512D5A098E000A7C10 /* Sources */,
-				3212B2522D5A098E000A7C10 /* Frameworks */,
-				3212B2532D5A098E000A7C10 /* Resources */,
+				328566BB2D5B7BE10053ED95 /* Sources */,
+				328566BC2D5B7BE10053ED95 /* Frameworks */,
+				328566BD2D5B7BE10053ED95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3212B2572D5A098E000A7C10 /* PBXTargetDependency */,
+				328566C12D5B7BE10053ED95 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3212B2582D5A098E000A7C10 /* ecobillUITests */,
+				328566C22D5B7BE10053ED95 /* ecoliftUITests */,
 			);
-			name = ecobillUITests;
+			name = ecoliftUITests;
 			packageProductDependencies = (
 			);
-			productName = ecobillUITests;
-			productReference = 3212B2552D5A098E000A7C10 /* ecobillUITests.xctest */;
+			productName = ecoliftUITests;
+			productReference = 328566BF2D5B7BE10053ED95 /* ecoliftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3212B2332D5A098D000A7C10 /* Project object */ = {
+		3285669D2D5B7BE00053ED95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					3212B23A2D5A098D000A7C10 = {
+					328566A42D5B7BE00053ED95 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					3212B24A2D5A098E000A7C10 = {
+					328566B42D5B7BE10053ED95 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 3212B23A2D5A098D000A7C10;
+						TestTargetID = 328566A42D5B7BE00053ED95;
 					};
-					3212B2542D5A098E000A7C10 = {
+					328566BE2D5B7BE10053ED95 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 3212B23A2D5A098D000A7C10;
+						TestTargetID = 328566A42D5B7BE00053ED95;
 					};
 				};
 			};
-			buildConfigurationList = 3212B2362D5A098D000A7C10 /* Build configuration list for PBXProject "ecobill" */;
+			buildConfigurationList = 328566A02D5B7BE00053ED95 /* Build configuration list for PBXProject "ecolift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3212B2322D5A098D000A7C10;
+			mainGroup = 3285669C2D5B7BE00053ED95;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3212B23C2D5A098D000A7C10 /* Products */;
+			productRefGroup = 328566A62D5B7BE00053ED95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3212B23A2D5A098D000A7C10 /* ecobill */,
-				3212B24A2D5A098E000A7C10 /* ecobillTests */,
-				3212B2542D5A098E000A7C10 /* ecobillUITests */,
+				328566A42D5B7BE00053ED95 /* ecolift */,
+				328566B42D5B7BE10053ED95 /* ecoliftTests */,
+				328566BE2D5B7BE10053ED95 /* ecoliftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3212B2392D5A098D000A7C10 /* Resources */ = {
+		328566A32D5B7BE00053ED95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2492D5A098E000A7C10 /* Resources */ = {
+		328566B32D5B7BE10053ED95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2532D5A098E000A7C10 /* Resources */ = {
+		328566BD2D5B7BE10053ED95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3212B2372D5A098D000A7C10 /* Sources */ = {
+		328566A12D5B7BE00053ED95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2472D5A098E000A7C10 /* Sources */ = {
+		328566B12D5B7BE10053ED95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3212B2512D5A098E000A7C10 /* Sources */ = {
+		328566BB2D5B7BE10053ED95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3212B24D2D5A098E000A7C10 /* PBXTargetDependency */ = {
+		328566B72D5B7BE10053ED95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3212B23A2D5A098D000A7C10 /* ecobill */;
-			targetProxy = 3212B24C2D5A098E000A7C10 /* PBXContainerItemProxy */;
+			target = 328566A42D5B7BE00053ED95 /* ecolift */;
+			targetProxy = 328566B62D5B7BE10053ED95 /* PBXContainerItemProxy */;
 		};
-		3212B2572D5A098E000A7C10 /* PBXTargetDependency */ = {
+		328566C12D5B7BE10053ED95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3212B23A2D5A098D000A7C10 /* ecobill */;
-			targetProxy = 3212B2562D5A098E000A7C10 /* PBXContainerItemProxy */;
+			target = 328566A42D5B7BE00053ED95 /* ecolift */;
+			targetProxy = 328566C02D5B7BE10053ED95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3212B25D2D5A098E000A7C10 /* Debug */ = {
+		328566C72D5B7BE10053ED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		3212B25E2D5A098E000A7C10 /* Release */ = {
+		328566C82D5B7BE10053ED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,14 +388,14 @@
 			};
 			name = Release;
 		};
-		3212B2602D5A098E000A7C10 /* Debug */ = {
+		328566CA2D5B7BE10053ED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ecobill/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ecolift/Preview Content\"";
 				DEVELOPMENT_TEAM = N92VTFC2K4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,7 +409,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobill;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecolift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,14 +417,14 @@
 			};
 			name = Debug;
 		};
-		3212B2612D5A098E000A7C10 /* Release */ = {
+		328566CB2D5B7BE10053ED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ecobill/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ecolift/Preview Content\"";
 				DEVELOPMENT_TEAM = N92VTFC2K4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobill;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecolift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +446,7 @@
 			};
 			name = Release;
 		};
-		3212B2632D5A098E000A7C10 /* Debug */ = {
+		328566CD2D5B7BE10053ED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,16 +456,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobillTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecoliftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecobill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecobill";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecolift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecolift";
 			};
 			name = Debug;
 		};
-		3212B2642D5A098E000A7C10 /* Release */ = {
+		328566CE2D5B7BE10053ED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobillTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecoliftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecobill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecobill";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecolift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecolift";
 			};
 			name = Release;
 		};
-		3212B2662D5A098E000A7C10 /* Debug */ = {
+		328566D02D5B7BE10053ED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -492,16 +492,16 @@
 				DEVELOPMENT_TEAM = N92VTFC2K4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobillUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecoliftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ecobill;
+				TEST_TARGET_NAME = ecolift;
 			};
 			name = Debug;
 		};
-		3212B2672D5A098E000A7C10 /* Release */ = {
+		328566D12D5B7BE10053ED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -509,55 +509,55 @@
 				DEVELOPMENT_TEAM = N92VTFC2K4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecobillUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.ac.leonding.htl.ecoliftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ecobill;
+				TEST_TARGET_NAME = ecolift;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3212B2362D5A098D000A7C10 /* Build configuration list for PBXProject "ecobill" */ = {
+		328566A02D5B7BE00053ED95 /* Build configuration list for PBXProject "ecolift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3212B25D2D5A098E000A7C10 /* Debug */,
-				3212B25E2D5A098E000A7C10 /* Release */,
+				328566C72D5B7BE10053ED95 /* Debug */,
+				328566C82D5B7BE10053ED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3212B25F2D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobill" */ = {
+		328566C92D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecolift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3212B2602D5A098E000A7C10 /* Debug */,
-				3212B2612D5A098E000A7C10 /* Release */,
+				328566CA2D5B7BE10053ED95 /* Debug */,
+				328566CB2D5B7BE10053ED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3212B2622D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobillTests" */ = {
+		328566CC2D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecoliftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3212B2632D5A098E000A7C10 /* Debug */,
-				3212B2642D5A098E000A7C10 /* Release */,
+				328566CD2D5B7BE10053ED95 /* Debug */,
+				328566CE2D5B7BE10053ED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3212B2652D5A098E000A7C10 /* Build configuration list for PBXNativeTarget "ecobillUITests" */ = {
+		328566CF2D5B7BE10053ED95 /* Build configuration list for PBXNativeTarget "ecoliftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3212B2662D5A098E000A7C10 /* Debug */,
-				3212B2672D5A098E000A7C10 /* Release */,
+				328566D02D5B7BE10053ED95 /* Debug */,
+				328566D12D5B7BE10053ED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3212B2332D5A098D000A7C10 /* Project object */;
+	rootObject = 3285669D2D5B7BE00053ED95 /* Project object */;
 }

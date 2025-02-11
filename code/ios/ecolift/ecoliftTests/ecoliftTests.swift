@@ -1,14 +1,7 @@
-//
-//  ecobillTests.swift
-//  ecobillTests
-//
-//  Created by Linus Wizany on 10.02.25.
-//
-
 import Testing
-@testable import ecobill
+@testable import ecolift
 
-struct ecobillTests {
+struct ecoliftTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

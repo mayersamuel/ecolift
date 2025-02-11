@@ -1,13 +1,6 @@
-//
-//  ecobillUITests.swift
-//  ecobillUITests
-//
-//  Created by Linus Wizany on 10.02.25.
-//
-
 import XCTest
 
-final class ecobillUITests: XCTestCase {
+final class ecoliftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
