@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct RideDetail: View {
-    var trip: EclRide
+    var ride: EclRide
     var body: some View {
         VStack {
-            Text("from: \(trip.from)")
-            Text("to: \(trip.to)")
-            Text("time: \(trip.time)")
-            Text("free seats: \(trip.seats)")
+            Text("from: \(ride.from)")
+            Text("to: \(ride.to)")
+            Text("time: \(ride.time)")
+            Text("free seats: \(ride.seats)")
             Spacer()
         }
         .padding(.horizontal, 50)

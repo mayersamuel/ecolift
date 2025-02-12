@@ -7,12 +7,12 @@ class ViewModel: ObservableObject {
         self.model = model
     }
     
-    var trips: [Trip] {
+    var rides: [EclRide] {
         get {
-            return model.trips
+            return model.rides
         }
         set {
-            model.trips = newValue
+            model.rides = newValue
         }
     }
 }

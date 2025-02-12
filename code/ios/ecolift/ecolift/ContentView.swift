@@ -7,16 +7,16 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            BookTripView(viewModel: viewModel)
+            RideTripView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "figure.wave")
-                    Text("Book Trip")
+                    Text("Book Ride")
                 }
                 .tag(0)
-            CreteTripView()
+            HostRideView()
                 .tabItem {
                     Image(systemName: "plus.circle")
-                    Text("Create Trip")
+                Text("Create Ride")
                 }
                 .tag(1)
             SettingsView()
@@ -29,9 +29,9 @@ struct ContentView: View {
         .padding(.top, 10)
         .task {
             queue.async(execute: {
-                let trips = getAllTrips()
+                let rides = getAllTrips()
                 DispatchQueue.main.async(execute: {
-                    viewModel.trips = trips
+                    viewModel.rides = rides
                 })
             })
         }

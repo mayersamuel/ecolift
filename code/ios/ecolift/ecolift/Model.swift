@@ -1,6 +1,6 @@
 import Foundation
 
-struct Trip: Codable, Identifiable {
+struct EclRide: Codable, Identifiable {
     var id: String
     var from: String
     var to: String
@@ -10,5 +10,5 @@ struct Trip: Codable, Identifiable {
 }
 
 struct Model {
-    var trips: [Trip] = []
+    var rides: [EclRide] = []
 }

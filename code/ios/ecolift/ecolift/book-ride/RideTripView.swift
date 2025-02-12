@@ -28,9 +28,9 @@ struct RideTripView: View {
             Spacer()
             NavigationView {
                 List {
-                    ForEach(viewModel.rides, id: \.id) { trip in
-                        NavigationLink(trip.id) {
-                            RideListItem(trip: trip)
+                    ForEach(viewModel.rides, id: \.id) { ride in
+                        NavigationLink(ride.id) {
+                            RideListItem(ride: ride)
                         }
                     }
                 }
