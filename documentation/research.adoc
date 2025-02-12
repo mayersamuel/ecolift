@@ -1,10 +1,18 @@
 === Fundings
 
-- https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund/what-innovation-fund_en
-- https://www.ffg.at/programm/
+* https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund/what-innovation-fund_en
+** What gets funded: innovative low-carbon technologies and processes in energy-intensive industries, including products that can substitute carbon-intensive ones
+* https://www.ffg.at/mobilitaet-call2024ms
+** What gets funded: Demonstration innovativer Konzepte zur Verkehrsvermeidung, Innovationsnetzwerk Verkehrsvermeidung
+
 
 ==== Maybe possible
 
-- https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/life2027
-- https://www.klimafonds.gv.at/foerderung/greenstart-2024/
-- https://www.umweltfoerderung.at/betriebe/mobilitaetsmanagement/unterkategorie-mobilitaet
+* https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/life2027
+** What gets funded: Climate change mitigation and adaptation
+** Very vague, unsure if this project would count
+* https://www.klimafonds.gv.at/foerderung/greenstart-2024/
+** Start-Up Competition for climate neutral projects, would need to win to get funding
+* https://www.umweltfoerderung.at/betriebe/mobilitaetsmanagement/unterkategorie-mobilitaet
+** What gets funded: Carsharing Models
+** 2024 Window ended, might not get continued 2025, our Project falls into the conditions
