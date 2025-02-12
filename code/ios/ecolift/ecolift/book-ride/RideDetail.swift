@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct TripDetail: View {
-    var trip: Trip
+struct RideDetail: View {
+    var trip: EclRide
     var body: some View {
         VStack {
             Text("from: \(trip.from)")

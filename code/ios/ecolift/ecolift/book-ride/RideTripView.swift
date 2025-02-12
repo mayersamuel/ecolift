@@ -1,22 +1,36 @@
 import SwiftUI
 
-struct BookTripView: View {
+struct RideTripView: View {
+    @State var from: String = ""
+    @State var to: String = ""
+    
     @ObservedObject var viewModel: ViewModel
     var body: some View {
         VStack {
-            Text("Book Trip")
+            Text("Book Ride")
                 .font(.title)
                 .padding(.top, 5)
                 .padding(.bottom, 15)
-            FromTo()
+            VStack {
+                TextField(
+                           "from",
+                           text: $from
+                       )
+                TextField(
+                           "to",
+                           text: $to
+                       )
+            }
+            .padding(.horizontal, 50)
+            .textFieldStyle(.roundedBorder)
                 .padding(.vertical, 20)
             Divider()
             Spacer()
             NavigationView {
                 List {
-                    ForEach(viewModel.trips, id: \.id) { trip in
+                    ForEach(viewModel.rides, id: \.id) { trip in
                         NavigationLink(trip.id) {
-                            TripListItem(trip: trip)
+                            RideListItem(trip: trip)
                         }
                     }
                 }

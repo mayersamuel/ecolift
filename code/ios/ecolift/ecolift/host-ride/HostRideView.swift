@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CreteTripView: View {
+struct HostRideView: View {
     @State var from = ""
     @State var to = ""
     @State var time = ""
@@ -11,7 +11,7 @@ struct CreteTripView: View {
     
     var body: some View {
         VStack {
-            Text("Create Trip")
+            Text("Host a Ride")
                 .font(.title)
             Spacer()
             TextField(

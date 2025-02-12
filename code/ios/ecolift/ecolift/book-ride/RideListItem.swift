@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct TripListItem: View {
-    var trip: Trip
+struct RideListItem: View {
+    var trip: EclRide
     var body: some View {
         Text("Grid List Item")
     }
